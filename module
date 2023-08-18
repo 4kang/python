@@ -1,18 +1,21 @@
 # -*- coding: utf-8 -*-
-import fibo #モジュールの呼び出し
+import fibo # fibo モジュールがimportされる
 
-#モジュール名を使ってfiboの中の関数をアクセス
+# fibo モジュールの fib() 関数を呼び出す
 print(fibo.fib(1000))
 print(fibo.fib2(100))
-print(fibo.__name__)
 
+# モジュール名 'fibo' を出力
+print(fibo.__name__) 
 
-fib = fibo.fib
+# fibo モジュールの fib() 関数をローカル変数に代入
+fib = fibo.fib 
 print(fib(500))
 
+# fibo モジュールの fib(), fib2() 関数だけをimport
 from fibo import fib, fib2
 print(fib(300))
 
-#モジュールで定義されている名前全てimportするという変型もある
+# アンダースコア _ で始まる以外の名前をimport
 from fibo import *
 print(fib(500))
