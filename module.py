@@ -19,3 +19,10 @@ print(fib(300))
 # アンダースコア _ で始まる以外の名前をimport
 from fibo import *
 print(fib(500))
+
+#python fibo.py <arguments>
+
+'''if __name__ == "__main__":
+    import sys
+    fib(int(sys.argv[1]))'''
+
