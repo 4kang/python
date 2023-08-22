@@ -1,0 +1,15 @@
+---構文エラーの種類---
+・SyntaxError
+　・書き方が間違っている
+・IndentationError
+　・不要な空白があったり、必要な空白がない
+・TabError
+　・ブロック内でタブとスペースのインデントが混在している
+etc…
+
+---構文エラーの例---
+print("Hello World) #SyntaxError
+print"Hello World" #SyntaxError
+
+print("Hello")
+ print("World") #IndentationError
