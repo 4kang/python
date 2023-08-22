@@ -1,0 +1,10 @@
+「例外」は構文的には正しいが、プログラムを続行できないエラーである
+
+---例外の種類---
+ZeroDivisionError,TypeError,IndexError,
+NameError,FileNotFoundError,AttributeError,
+KeyError,ImportError,UnicodeDecodeError　等
+
+---例外の例---
+x = 1 / 0 #ZeroDivisionError
+x = 1 + "2" #TypeError
