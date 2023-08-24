@@ -1,6 +1,7 @@
 # -*- coding: Shift-JIS -*-
 
 #例外処理に必要なのが、try節、except節
+print("-------コード01--------")
 try:
     x = 2
     print("10 / x =", 10 / x) #try節
