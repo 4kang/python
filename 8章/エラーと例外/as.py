@@ -13,13 +13,14 @@ except ZeroDivisionError as eee:
     print(eee.args[0])
     print(eee)
 
-
+print("--------------------------------------------")
 #[ZeroDivisionError: division by zero]を出力
 try:
     x = 10 / 0
 except ZeroDivisionError as eee:
     print("ZeroDivisionError", eee)
-
+    
+print("--------------------------------------------")
 try:
     x = 10 / 0
     #全ての例外に対してexcept節のコードを実行させる
