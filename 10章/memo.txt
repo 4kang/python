@@ -1,0 +1,24 @@
+//OSインターフェイス//
+osモジュールはosやりとりする関数を提供する。
+・os.grtcwd()...カレントディレクトリを取得
+・os.chdir('/server/accesslogs')...カレントディレクトリを変更
+・os.system('mkdir today')...システム側のシェルでコマンド実行
+
+shutilモジュールはファイルやディレクトリを管理する関数を提供する。
+・shutil.copyfile('data.db', 'archive.db')...ファイルをコピー
+・shutil.move('/build/executables', 'installdir')...ファイル/ディレクトリを移動
+
+//ファイルのワイルドカード//
+globモジュールはディレクトリをワイルドカード検索してファイル名のリストを返す関数を提供する。
+・glob.glob('*.py')...*.pyファイルを検索
+
+//コマンドライン引数//
+sysモジュールのargv属性に、コマンドライン引数がリストとして格納されている。
+
+getoptモジュールは、UNIXのgetopt()関数のようにsys.argvを処理する。
+・opts,args = getopt.getopt(args, shortopts, longopts=[])
+
+argparseモジュールは、パワフルで柔軟なコマンドライン処理機能を提供する。
+・parser = argparse.ArgumentParser(description='Process some integers.')
+・args = parser.parse_args()
+・print(args.accumulate(args.integers))
