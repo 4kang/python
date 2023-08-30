@@ -22,3 +22,28 @@ argparseモジュールは、パワフルで柔軟なコマンドライン処理機能を提供する。
 ・parser = argparse.ArgumentParser(description='Process some integers.')
 ・args = parser.parse_args()
 ・print(args.accumulate(args.integers))
+
+//エラー出力のリダイレクト(行き先を変えること)とプログラムの終了//
+sysモジュールには、argv以外にも以下のような属性やメソッドがある。
+・sys.stdin...STDIN(標準入力)のファイルオブジェクト
+・sys.stdout...STDOUT(標準入力)のファイルオブジェクト
+・sys.stderr...STDERR(標準エラー出力)のファイルオブジェクト
+・sys.exit()...スクリプトを終了する
+
+//文字列パターンマッチング//
+reモジュールは高度な文字列処理を行う正規表現ツールを提供する。
+置換などの簡単な操作は文字列メソッドの方が読みやすくデバックしやすい。
+
+//数学//
+mathモジュールを使うと、浮動小数点数数学用の下層Cライブラリ関数にアクセスできる。
+randomモジュールは乱数の取得に使う。
+statisticsモジュールは数値データの基本統計量(平均、中央値、分散など)の算出に使う。
+
+//インターネットへのアクセス//
+urllib.requestモジュールは指定したURLのデータを取得するのに使う・
+smtplibモジュールはメールを送るのに使う。
+
+//日付と時間//
+datetimeモジュールは日付や時間の計算や出力形式の操作に使う。
+
+//データ圧縮//
