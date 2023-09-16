@@ -58,3 +58,29 @@ print(x)
 x = "Hello World"
 y = x.upper()
 print(y)
+
+
+#join() ばらされた文字列をつなげる(split必須)
+x = "Hello World".split(" ")
+print(x)
+y = " ".join(x)
+print(y)
+
+x = "Hello World".split(" ")
+print(x)
+y = "my".join(x)
+print(y) #HelloとWorldの間にmyが入る
+
+
+#find() 特定の文字列の順番を数える
+x = "Hello World".find("e")
+print(x)
+
+print("Hello World".find("W"))
+print("Hello World".find("a")) #文字列中にない言葉を検索すると-1と返す
+
+
+#count() 特定の文字列の数を数える
+print("Mississippi".count("s"))
+print("Mississippi".count("ss"))
+print("Mississippi".count("si"))
