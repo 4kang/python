@@ -38,3 +38,23 @@ print(x.upper())
 
 abcd = "無敵の笑顔で沸かすメディア、知ってその秘密ミステリアス、抜けてるとこさえ彼女のエリア、完璧で嘘つきな君は、天才的なアイドル様"
 print(abcd)
+
+x = "Good morning"
+print(x.upper())
+
+abcd = "Itterasshai"
+print(abcd.replace("r", "R"))
+
+
+print("----------変数に変数をいれる----------")
+#変数＝変数
+x = "Good morning"
+x.upper()
+print(x)
+#↑だとメソッドが機能されないので・・・
+x = x.upper()
+print(x)
+
+x = "Hello World"
+y = x.upper()
+print(y)
