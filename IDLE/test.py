@@ -84,3 +84,12 @@ print("Hello World".find("a")) #文字列中にない言葉を検索すると-1�
 print("Mississippi".count("s"))
 print("Mississippi".count("ss"))
 print("Mississippi".count("si"))
+
+#インデックス
+print("Hello Wolrd"[1])
+x = "Hello World"[-1]
+print(x)
+
+#スライシング
+x = "Hello World"[1:4]
+print(x)
