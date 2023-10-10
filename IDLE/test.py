@@ -104,6 +104,24 @@ print(type(4))
 print(type(1.06))
 x = 99
 print(type(x))
+
 print("------------数値型で遊んでみる------------")
 print(2 + 3 - 1)
 print(2 * 8)
+print(2 ** 3)
+print(12 // 3)
+print(12 // 5)
+print(12.0 / 5.0)
+print(12.0 / 5)
+
+print("--------------文字列と掛け算--------------")
+print("Integer Float String" * 10)
+print(5 *(2 + 3))
+print(type("39"))
+print("I am 39 years old".find("39"))
+
+print("I am 39 years old".find(str(39)))
+x = "3"
+y = "7"
+print(int(x) * int(y))
+print(type(str(int(str(39)))))
