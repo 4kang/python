@@ -96,3 +96,14 @@ print(x)
 
 print("対話型コマンドライン↓")
 print("Hello World")
+
+#数値というデータ型
+#データ型を確認する方法(type)
+print(type("Hello World"))
+print(type(4))
+print(type(1.06))
+x = 99
+print(type(x))
+print("------------数値型で遊んでみる------------")
+print(2 + 3 - 1)
+print(2 * 8)
