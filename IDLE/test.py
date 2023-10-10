@@ -93,3 +93,6 @@ print(x)
 #スライシング
 x = "Hello World"[1:4]
 print(x)
+
+print("対話型コマンドライン↓")
+print("Hello World")
