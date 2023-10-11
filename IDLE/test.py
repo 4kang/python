@@ -125,3 +125,43 @@ x = "3"
 y = "7"
 print(int(x) * int(y))
 print(type(str(int(str(39)))))
+print("It's", 6, "PM.")
+print("It's" + "6" + "PM")
+#print("It's" + 6 + "PM") #エラー
+print("これは", "数字の", "6", "です")
+
+#文字列フォーマット
+print("I am {}.".format("John"))
+#変数で使うフォーマット
+x = "John"
+print("I am {}.".format(x))
+#複数の変数代入
+x = "John"
+y = "Yoko"
+print("I am {}. You are {}.".format(x, y))
+#変数に数値を代入
+x = "John"
+y = 58
+print("I am {}, {}years old.".format(x, y))
+#formatメソッドは自動で番号に割り当てられる
+x = "John"
+print("I am {0}. {0} is my name.".format(x))
+
+#2つの値を渡す例
+x = "John"
+y = "Tokyo"
+print("This is {0}. {1} is {0}'s hometown.".format(x, y))
+
+x = "蛍"
+y = "空"
+z = "天理"
+
+print("貴方はどちらの主人公を選びますか。{0}？{1}？{2}は{0}を選んだ。".format(x,y,z))
+
+#もう一つの文字列フォーマット
+x = "John"
+print("I am %s."%x)
+
+x = "John"
+y = "Yoko"
+print("I am %s. You are %s."%(x,y))
