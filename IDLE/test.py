@@ -156,7 +156,7 @@ x = "蛍"
 y = "空"
 z = "天理"
 
-print("貴方はどちらの主人公を選びますか。{0}？{1}？{2}は{0}を選んだ。".format(x,y,z))
+print("貴方はどちらの主人公を選びますか。\n{0}？{1}？\n{2}は{0}を選んだ。".format(x,y,z))
 
 #もう一つの文字列フォーマット
 x = "John"
@@ -165,3 +165,24 @@ print("I am %s."%x)
 x = "John"
 y = "Yoko"
 print("I am %s. You are %s."%(x,y))
+print("I am %s. You are %s."%(y, x))
+
+x = 'John'
+y = 28
+print("I am %s, %d years old."%(x,y))
+
+
+a = "クロノア"
+b = 17
+c = 1
+d = "ミネルヴァ"
+print("%sは現在%d歳である。\n%d歳下の妹がいる。彼女は%sという。"%(a,b,c,d))
+
+#改行
+print("I am John. \nI am happy.")
+#中央揃え(center)
+print("THE MAN".center(30))
+#右揃え
+print("John".rjust(30))
+#左揃え
+print("My name is John. I live in Tokyo.".ljust(30))
