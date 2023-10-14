@@ -121,9 +121,11 @@ print(type("39"))
 print("I am 39 years old".find("39"))
 
 print("I am 39 years old".find(str(39)))
+
 x = "3"
 y = "7"
 print(int(x) * int(y))
+
 print(type(str(int(str(39)))))
 print("It's", 6, "PM.")
 print("It's" + "6" + "PM")
@@ -186,3 +188,25 @@ print("THE MAN".center(30))
 print("John".rjust(30))
 #左揃え
 print("My name is John. I live in Tokyo.".ljust(30))
+
+#整形済みの文字列
+print("""HOME TOWN
+John
+   Hello. I am John.
+Tokyo
+   is my hometown.
+
+Jan 20 2015
+
+John
+      """)
+
+print('''こんにちは、私は缶です。
+創作キャラを題材にドールにするのが好きです。
+
+　　ですがお金がかかります。ちょっと大変ですね。
+
+　ですので勉強して資格たくさん取ってお小遣いをどんどん
+増やしていきたいと思っております。''')
+
+print("My name is John".ljust(30))
